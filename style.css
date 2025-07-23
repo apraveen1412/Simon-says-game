@@ -1,0 +1,34 @@
+.red, .green, .orange, .violet{
+    width: 10rem;
+    height: 10rem;
+    border: 0.5rem solid black;
+    border-radius: 1.5rem;
+    margin: 0.5rem;
+}
+
+.red{
+    background-color: #ca3f75;
+}
+.green{
+    background-color: #5ea6b7;
+}
+.orange{
+    background-color: #e0843e;
+}
+.violet{
+    background-color: #687ace;
+}
+
+.subContainer{
+    display: flex;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flash{
+    background-color: whitesmoke;
+}
